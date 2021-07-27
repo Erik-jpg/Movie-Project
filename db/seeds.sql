@@ -1,4 +1,4 @@
-INSERT INTO movie_id (id, movie_reviews)
+INSERT INTO movie_id (id)
 VALUES (1),
        (2),
        (3),

@@ -23,8 +23,13 @@ const db = mysql.createConnection(
   console.log(`Connected to the movie_db database.`)
 );
 
-db.query('SELECT * FROM movies_db;', function (err, results) {
-    console.log(results);
+  app.get('/api/movies', (req, res) => {
+    db.query('SELECT * FROM movies', (err, results) => {
+        if (err) {
+            throw new Error(err);
+        }else { 
+            res.json(results);
+    }
   });
 
 app.use((req, res) => {
@@ -33,5 +38,4 @@ app.use((req, res) => {
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
-});
-
+  });
