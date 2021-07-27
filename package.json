@@ -1,0 +1,25 @@
+{
+  "name": "movie-project",
+  "version": "1.0.0",
+  "description": "Create a data base that has set info and then add in code to manipulate the info",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Erik-jpg/Movie-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Erik-jpg/Movie-Project/issues"
+  },
+  "homepage": "https://github.com/Erik-jpg/Movie-Project#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5"
+  }
+}
