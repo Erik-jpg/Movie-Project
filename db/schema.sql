@@ -8,5 +8,5 @@ CREATE TABLE movies (
 );
 
 CREATE TABLE movie_id (
-    id VARCHAR(8), movie_id INT PRIMARY KEY
+    id INT
 );

@@ -1,4 +1,4 @@
-INSERT INTO movie_id (id)
+INSERT INTO movie_id (id, movie_reviews)
 VALUES (1),
        (2),
        (3),
@@ -15,3 +15,4 @@ VALUES ("The Great Gatsby", 1),
        ("Crime and Punishment", 2),
        ("Moby Dick", 4),
        ("Decameron", 6);
+
